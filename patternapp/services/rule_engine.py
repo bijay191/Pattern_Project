@@ -1,5 +1,3 @@
-# patternapp/services/rule_engine.py
-
 import re
 
 def generate_rule_pattern(file_list):

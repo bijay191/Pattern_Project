@@ -1,5 +1,3 @@
-# patternapp/services/ai_refiner.py
-
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 model_name = "google/flan-t5-small"
