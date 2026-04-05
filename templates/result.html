@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generated Regex</title>
+</head>
+<body>
+    <h1>Generated Regex Patterns 🚀</h1>
+
+    <table border="1">
+        <tr>
+            <th>Filename</th>
+            <th>Regex Pattern</th>
+        </tr>
+
+        {% for item in patterns %}
+        <tr>
+            <td>{{ item.file.name }}</td>
+            <td>{{ item.pattern }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
